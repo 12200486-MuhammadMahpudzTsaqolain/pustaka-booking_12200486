@@ -24,7 +24,7 @@ class PenggunaSeeder extends Seeder
             ]
         ];
 
-        $p = new Pengguna();
+        $p = new Pengguna12200486();
         $p->insertBatch($data);
     }
 }

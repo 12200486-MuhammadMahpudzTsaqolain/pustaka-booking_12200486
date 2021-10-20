@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Pengguna_12200486 extends Model
+class Pengguna_12200453 extends Model
 {
     protected $DBGroup              = 'koneksiku';
     protected $table                = 'pengguna12200486';
