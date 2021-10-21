@@ -1,50 +1,50 @@
 <?php
 namespace App\Controllers;
-
-use App\Models\Pengguna_12200486;
+use App\Models\Pengguna;
+use Config\Services;
 
 class Login extends BaseController{
 
-    
     public function cekLogin(){
-        $email = $this->request->getPost('email');
-        $sandi = $this->request->getPost('sandi');
+        $e = $this->request->getPost('email');
+        $s = $this->request->getPost('sandi');
+    
+    $v = $this->validate([
+        'email' => 'required',
+        'sandi' => 'required'
+    ], [
+        'email'=>[
+            'required'    => 'Email tidak boleh kosong'
+        ],
+        'sandi'=> [
+            'required'    => 'Sandi tidak boleh kosong'
+        ]
+    ]);
+    
+    $this->session->set('email', $e);
+    $this->session->set('sandi', $s);
+    
 
-        $v =  $this->validate([
-            'email' => 'required',
-            'sandi' => 'required'
-         ], [
-             'email'=>[
-                 'required'     =>'Email tidak boleh kosong'
-             ],
-             'sandi'=>[
-                 'required'     =>'Sandi tidak boleh kosong'
-             ]
-         ]);
-        
+    if( $v == false ){
+        $this->session->setFlashdata('validator', $this->validator);
+        return redirect()->to('/login');
+    }else{
 
-         $this->session->set('email', $email);
-         $this->session->set('sandi', $sandi);
+        $vl = (new Pengguna())->cekLogin($e, $s);
 
-         
-         if($v == false){
-             $this->session->setFlashdata(
-                 'validator', $this->validator
-             );
-            return redirect()->to('/login');
-         }else{
-            $vl = (new Pengguna_12200486())->cekLogin($email, $sandi); 
+        if($vl == null){
+            return redirect()->to('/login')->with('error', 'User dan sandi salah');
+        }else{
+            $this->session->set('sudahLogin', true);
+            return redirect()->to('/beranda');
 
-            if ($vl == null){
-                return redirect()->to('/login')->with('error', 'User dan sandi salah');
-            }else{
-                $this->session->set('sudahLogin', true);
-             return redirect()->to('/beranda');
-            }
-           
-         }
+        }
+       
     }
-    public function beranda(){
+}
 
-    }
+public function beranda(){
+
+}
+
 }

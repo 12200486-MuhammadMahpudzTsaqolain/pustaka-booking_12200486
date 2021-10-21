@@ -4,10 +4,10 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Pengguna_12200453 extends Model
+class Pengguna extends Model
 {
     protected $DBGroup              = 'koneksiku';
-    protected $table                = 'pengguna12200486';
+    protected $table                = 'pengguna_12200486';
     protected $primaryKey           = 'id';
     protected $useAutoIncrement     = true;
     protected $returnType           = 'array';
@@ -15,13 +15,15 @@ class Pengguna_12200453 extends Model
     protected $allowedFields        = ['nama', 'password'];
 
     /**
-     * Method untuk cek login dari table pengguna
-     * bedasarkan nama dan password
-     * @var $string $user
-     * @var $string pass
+     * method untuk cek login dari table pengguna
+     * berdasarkan nama dan password
+     * @var string $user
+     * @var string $pass
      */
     public function cekLogin($user, $pass){
         return $this->where('nama', $user)
                     ->where('password', md5($pass) )->first();
     }
+
+
 }

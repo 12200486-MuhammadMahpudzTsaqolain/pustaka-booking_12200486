@@ -29,6 +29,7 @@ class AutoIn implements FilterInterface
             return redirect()->to('/beranda');
         }
     }
+
     /**
      * Allows After filters to inspect and modify the response
      * object as needed. This method does not allow any way
