@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'db_pustaka_booking_12200486  ',
+        'database' => 'db_pustaka_booking_12200486',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
