@@ -22,7 +22,7 @@ class Filters extends BaseConfig
         'toolbar'  => DebugToolbar::class,
         'honeypot' => Honeypot::class,
         'auth'     => Auth::class,
-        'autoin'  => AutoIn::class
+        'autoin'   => AutoIn::class
     ];
 
     /**
