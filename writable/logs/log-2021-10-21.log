@@ -1,0 +1,102 @@
+ERROR - 2021-10-21 00:08:24 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-21 00:08:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('a', 'a')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-21 00:11:03 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-21 00:11:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('a', 'a')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-21 01:14:59 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-21 01:14:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('a', 'a')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-21 01:18:01 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-21 01:18:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('a', 'a')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-21 01:44:16 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-21 01:44:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('Mahpudz', '12200486')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-21 02:12:02 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-21 02:12:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('Mahpudz', '12200486')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-21 02:14:27 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+ERROR - 2021-10-21 02:16:14 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+ERROR - 2021-10-21 02:16:52 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486 '
+CRITICAL - 2021-10-21 02:19:58 --> Cannot declare class App\Database\Seeds\PenggunaSeeder, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-21 02:20:21 --> Cannot declare class App\Database\Seeds\PenggunaSeeder, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-21 02:49:04 --> Cannot declare class App\Database\Seeds\PenggunaSeeder, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

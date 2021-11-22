@@ -1,0 +1,222 @@
+CRITICAL - 2021-10-20 09:52:47 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-20 10:51:46 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 10:52:00 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 10:53:41 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 11:07:32 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 11:11:22 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 11:11:26 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 11:33:53 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 11:34:03 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 11:34:53 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 11:35:06 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 11:37:28 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 11:37:37 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 20:38:01 --> autoin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Filters\Filters.php(338): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('autoin')
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\Filters\Filters->enableFilter('autoin', 'before')
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-10-20 21:49:49 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-20 21:49:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('Mahpudz', '12200486')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-20 21:50:04 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-20 21:50:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('abc', '12345')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-20 21:51:48 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-20 21:51:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('abc', '12345')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-20 21:59:47 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-20 21:59:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('a', 'a')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-20 22:00:20 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-20 22:00:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('a', 'a')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-20 23:09:26 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-20 23:09:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('a', 'a')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-20 23:10:58 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-20 23:10:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('a', 'a')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-20 23:35:24 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-20 23:35:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\pustaka-booking_12200486\app\Models\Pengguna.php(25): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\pustaka-booking_12200486\app\Controllers\Login.php(33): App\Models\Pengguna->cekLogin('a', 'a')
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->cekLogin()
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pustaka-booking_12200486\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

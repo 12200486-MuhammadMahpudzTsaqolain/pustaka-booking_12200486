@@ -1,0 +1,17 @@
+ERROR - 2021-10-13 09:17:40 --> Can't create database 'db_pustaka_booking_12200486'; database exists
+ERROR - 2021-10-13 09:26:03 --> Error connecting to the database: Incorrect database name 'db_pustaka_booking_12200486  '
+CRITICAL - 2021-10-13 09:26:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'db_pustaka_booking_12200486  '
+#0 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Database\Seeder.php(96): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#4 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(800): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'penggunaseeder')
+#8 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pustaka-booking_12200486\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pustaka-booking_12200486\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
